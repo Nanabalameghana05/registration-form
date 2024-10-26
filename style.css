@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* height: 100px; */
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:wheat;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+}
+.container{
+    border-radius: 10px;
+    padding:2rem;
+    width:30vw;
+    height:78vh;
+    background-color:bisque;
+}
+.form_title{
+    text-align: center;
+}
+.input_box, .btn{
+    margin-top: 5px;
+    font-size:small;
+    text-indent: 10px;
+    height:6vh;
+    width: 100%;
+    border-radius: 5px;
+    border:1px solid
+}
+.checkbox_container{
+    display:flex;
+    justify-content: space-around;
+}
+.number_Birth_Date_container, .option_pin_container{
+    display:flex;
+    justify-content: space-between;
+}
+.number_container, .birth_date_container, .country, .pin{
+    width:48%;
+}
+.btn{
+    color:white;
+    font-size: 1.2rem;
+    background-color: lightsteelblue;
+}
+
